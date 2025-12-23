@@ -73,6 +73,7 @@ export default function IntroScreen({
                             alt="Ảnh dìm 1"
                             fill
                             className="object-cover transition-opacity duration-300"
+                            unoptimized
                             onError={(e: any) => {
                                 e.currentTarget.style.opacity = "0";
                             }}
@@ -110,6 +111,7 @@ export default function IntroScreen({
                                     alt={`Ảnh dìm ${idx + 1}`}
                                     fill
                                     className="object-cover transition-opacity duration-300"
+                                    unoptimized
                                     onError={(e: any) => {
                                         e.currentTarget.style.opacity = "0";
                                     }}
